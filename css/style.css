@@ -1,0 +1,45 @@
+body{
+    background-color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    margin-top: 30px;
+    justify-content: center;
+}
+label{
+    text-align: end;
+    margin-right: 40px;
+    color: black;
+}
+input{
+    width: 200px;
+    padding-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+
+}
+select{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+button{
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 5px #150e0e;
+    background-color: blue;
+    color: white;
+    border-style: none;
+    font-weight: bold;
+}
+p{
+    margin-top: 20px;
+    color: forestgreen;
+    font-weight: bold;
+    font-size: 20px;
+}
